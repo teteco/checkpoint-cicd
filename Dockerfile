@@ -5,7 +5,7 @@ FROM python:3.8-slim-buster
 WORKDIR /app
 
 # Copie o código da aplicação para o contêiner
-COPY . 
+COPY . .
 
 # Instale as dependências da aplicação
 RUN pip install -r requirements.txt 
